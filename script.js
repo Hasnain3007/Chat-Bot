@@ -2,12 +2,20 @@
  function chatbot(input) {
      let output = "";
      input = input.toLowerCase();
-     if (input.includes("hello") || input.includes("hi")) {
+     if (input.includes("hello") || input.includes("hi") || input.includes("assalamualikum") || input.includes("salam")) {
          output = "Hello, nice to meet you!";
      } else if (input.includes("how are you")) {
          output = "I'm doing fine, thank you for asking.";
      } else if (input.includes("what is your name")) {
          output = "My name is Hasnain, I'm a chatbot.";
+     } else if (input.includes("love")) {
+         output = "Sharm karo apke ghr me baap bhai nh he";
+     } else if (input.includes("friend")) {
+         output = "ok ajj se hm dono dost he";
+     } else if (input.includes("daniyal")) {
+         output = "daniyal bhai tu bht ache insan he aur mere buhut ache dost he";
+     } else if (input.includes("allah hafiz")) {
+         output = "ok Allah Hafiz Apna Khayal rakhen";
      } else if (input.includes("what can you do")) {
          output = "I can chat with you and answer some simple questions.";
      } else if (input.includes("date")) {
